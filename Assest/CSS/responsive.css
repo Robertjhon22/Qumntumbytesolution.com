@@ -1,0 +1,188 @@
+@media screen and (max-width:990px) {
+    #hero {
+        background-image: linear-gradient(#080808, #06d888ee);
+        height: fit-content !important;
+        display: flex;
+        justify-content: center;
+        padding-top: 90px !important;
+    }
+    .hero-main-box {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .hero-left {
+        width: 100% !important;
+        padding:0px 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .hero-right {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none !important;
+    }
+    .creative-vision-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+    .creative-vision-main-box-left {
+        width: 100% !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .creative-vision-main-box-right {
+        width: 100%;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .creative-vision-second-main-box {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column !important;
+    }
+    .creative-vision-second-main-box-left {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .creative-vision-second-main-box-right {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .SolutionsWe-Offer-heading-box {
+        width: 100% !important;
+        margin: auto;
+    }
+    .examples-of-our-work-heading-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .examples-of-our-work-heading-box-left {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .examples-of-our-work-heading-box-right {
+        width: 100% !important;
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .Solutions-We-Offer-main-box-subbox {
+        width: 340px;
+        box-shadow: 3px 3px 20px #06d889;
+        padding: 40px 41px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+    }
+    .examples-of-our-work-main-box-sub-box {
+        width: 340px !important;
+        height: 250px;
+        padding: 40px 20px 10px 20px;
+        background-image: url("../Image/Examples-of-Our-Work/Project-12.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+    }
+    .client-exprinces-main-box-sub-box {
+        width: 100% !important;
+        margin: auto;
+    }
+    .client-exprinces-main-box-and-sub-box {
+        width: 357px;
+        background: #1e2226;
+        padding: 20px;
+        border-radius: 20px;
+        transition: all .4s;
+        cursor: pointer;
+    }
+    .name-title-date-time-main-box-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+    .name-title-date-time-main-box {
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .name-title-date-time-main-box-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .client-review-date {
+        color: white;
+        text-align: start;
+        font-size: 20px;
+        margin: 0px;
+        font-weight: 700;
+    }
+    .client-review-time {
+        color: gray;
+        text-align: start;
+        font-size: 20px;
+        margin: 0px;
+    }
+    .choice-plan-main-box-sub-box {
+        width: 367px !important;
+        background: #15191d;
+        border-radius: 15px;
+        padding: 30px 20px;
+    }
+    .work-with-us {
+        font-size: 80px !important;
+        color: white;
+        text-align: center;
+        font-weight: 700;
+    }
+    .lets-talk {
+        text-align: center;
+        font-size: 160px !important;
+        color: white;
+        opacity: 15%;
+    }
+    .footer-main-box {
+        width: 100% !important;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .footer-main-box-sub-box {
+        width: 100% !important;
+        padding: 10px 20px;
+    }
+    .footer-main-box-sub-box.quick-links-box {
+        width: 100 !important;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(255 255 255) !important;
+        border-color: rgb(255 255 255) !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        filter: invert(20);
+    }
+}
