@@ -32,6 +32,7 @@
     background: black !important;
     position: fixed;
     top: 0px;
+    z-index: 4;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -1258,5 +1259,14 @@ color: #06d889;
 }
 .Masterpiece-images-size-style {
     width: 500px;
+}
+.social-media-post-second-hero {
+    width: 500px;
+    margin: auto;
+}
+.social-media-post-second-hero-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* SERVICES PAGE CSS END  */

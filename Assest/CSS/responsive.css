@@ -185,4 +185,73 @@
     .navbar-light .navbar-toggler-icon {
         filter: invert(20);
     }
+    .logo-design-hero-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-design-hero-main-box-left {
+        width: 100% !important;
+        padding: 0px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-design-hero-main-box-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .Your-business-need-heading-box {
+        width: 100% !important;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .Your-business-need-main-box {
+        width: 100% !important;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Your-business-need-main-box-left {
+        width: 100% !important;
+        padding: 0px 20px;
+    }
+    .Your-business-need-main-box-right {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .be-visible-main-box {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .wahy-choose-us-main-heading-box {
+        width: 100% !important;
+        margin: auto;
+    }
+    .Masterpiece-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Masterpiece-main-box-left {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .Masterpiece-main-box-right {
+        width: 100%;
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
